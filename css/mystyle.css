@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../img/bg.jpg") no-repeat;
+	background-size: cover;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.card-title{
+	color: green;
+	font-weight: bold
+}.card-text{
+	color: white;
+}

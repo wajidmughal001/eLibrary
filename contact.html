@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+     <!--fontawsome-->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+
+    <title>Imran's Library</title>
+  </head>
+  <body>
+    <!-- Starting Navigation bar-->
+   <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html" style="color: green; font-weight: bold;">
+          <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" > e-Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html" style="color: green; font-weight: bold;">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="books.html" style="color: green; font-weight: bold;">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" style="color: green; font-weight: bold;">Contact US</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navigation bar end-->
+<br>
+<!--contact form started-->
+<div class="container">
+        <!--Section: Contact v.2-->
+        <section class="section text-center" style="color: green;">
+            <!--Section heading-->
+            <h2 class="section-heading h1 pt-4">Contact us</h2>
+            <!--Section description-->
+            <p class="section-description">
+              For any information and query please fill the form below and our support team will contact you shortly.
+            </p>
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-8 col-xl-9">
+                    <form id ="contact-form" name="contact-form" action="mail.php" method="POST"  onsubmit="return validateForm()" >
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <div class="md-form">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <div class="md-form">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" class="form-control"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                    <div class="center-on-small-only">
+                        <a class="btn btn-success form-control" onclick="validateForm()" style="color: white">Send</a>
+                    </div> <div class="status" id="status"></div>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-md-4 col-xl-3">
+                    <ul class="contact-icons">
+
+                        <li><i class="fa fa-house"></i>
+                            <p>Islamabad, Pakistan</p>
+                        </li>
+                        <li><i class="fa fa-phone fa-2x"></i>
+                            <p>+ 92 123 11 22 345</p>
+                        </li>
+                        <li><i class="fa fa-envelope fa-2x"></i>
+                            <p>elibrary@email.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+        </section>
+        <!--Section: Contact v.2-->
+    </div>
+<!--Contact form end-->
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
